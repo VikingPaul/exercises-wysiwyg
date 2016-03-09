@@ -1,0 +1,27 @@
+/*For every even numbered element, have a light yellow background.*/
+/*For every odd numbered element, have a light blue background.*/
+
+article:nth-child(1n) {
+  background-color: lightyellow;
+}
+article:nth-child(2n) {
+  background-color: lightblue;
+}
+img {
+  width: 60%;
+  margin: 0 20%;
+}
+div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+article {
+  flex-basis: 30%;
+  text-align: center;
+  margin-top: 20px;
+}
+p {
+  margin: 5px 10px;
+}
